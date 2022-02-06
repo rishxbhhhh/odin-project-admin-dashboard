@@ -1,0 +1,273 @@
+body {
+  margin: 0%;
+  font-family: "Roboto", sans-serif;
+  background-color: #e2e8f0;
+}
+
+.sidebar {
+  display: inline-block;
+  width: max(120px, 20vw);
+  background-color: #0284c7;
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.rightside {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  width: 80vw;
+  height: 100vh;
+  background-color: #e2e8f0;
+}
+
+.header {
+  width: 80vw;
+  height: 18%;
+  background-color: #ffffff;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+.title {
+  padding: 5% 5% 5% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.sidebar img {
+  margin: 2%;
+}
+
+#title-img {
+  width: max(20%, 60px);
+}
+
+#title-text {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.sidebar li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 3%;
+  font-weight: 400;
+}
+
+.sidebar li:hover {
+  cursor: pointer;
+}
+
+.link-img {
+  width: max(12%, 25px);
+}
+
+.line1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  /* border: 2px solid red; */
+}
+
+#item2 {
+  margin: 0 20% 0 0;
+  display: inline-block;
+}
+
+#item p {
+  margin: 0;
+  padding: 0;
+}
+.item2 {
+  margin: 0 10% 0 2%;
+}
+
+.line2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  /* border: 2px solid red; */
+}
+
+#item1 {
+  margin: 0 5px 0 5px;
+  background-color: rgba(255, 0, 0, 0.541);
+  width: 80px;
+  border-radius: 50%;
+  height: 80px;
+}
+
+.btn {
+  outline: none;
+  border: 1px solid white;
+  background-color: #0284c7;
+  width: 100px;
+  height: 40px;
+  color: white;
+  border-radius: 20px;
+  font-size: 16px;
+}
+#item3,
+#item4,
+#item5 {
+  margin: 0 1%;
+}
+
+.item3 {
+  margin: 0 5px 0 35px;
+}
+
+.item4 {
+  margin: 0 15px;
+  background-color: rgba(255, 0, 0, 0.541);
+  width: 40px;
+  border-radius: 50%;
+  height: 40px;
+}
+
+.item5 {
+  font-weight: 600;
+}
+
+#search {
+  height: 3vh;
+  width: 35vw;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: #e2e8f0;
+}
+
+.main {
+  display: flex;
+}
+.right-pane {
+    border: 1px solid gray;
+    margin-top: 2%;
+    display: inline-block;
+    width: 23%;
+    padding: 0% 1% 1% 1%;
+    height: fit-content;
+}
+
+.announcements-container {
+    background-color: white;
+    padding: 7%;
+    border: 1px solid white;
+    border-radius: 6px;
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.05);
+}
+
+.trending-container {
+    background-color: white;
+    padding: 7%;
+    border: 1px solid white;
+    border-radius: 6px;
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.05);
+}
+
+.announcements-container p {
+    font-size: 14px;
+    opacity: 0.9;
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.announcements-container p:hover{
+    overflow: visible;
+    white-space: normal;
+    height: fit-content;
+}
+
+.announcements-container h4 {
+    font-size: 14px;
+}
+
+.projects {
+    /* border: 1px solid gray; */
+  margin: 2%;
+  display: inline-block;
+  padding: 0% 1% 3% 1%;
+}
+
+.card-container {
+    /* border: 1px solid gray; */
+    width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card {
+    margin: 2%;
+  background-color: white;
+  padding: 3%;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 9px solid orange;
+  border-radius: 10px;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  margin: 2%;
+  float: right;
+}
+
+.trending-text{
+    display: inline-block;
+}
+
+.trending-text > .head{
+    font-weight: 600;
+}
+
+.trending-text > .body{
+    opacity: 0.8;
+}
+
+.trending-img {
+  width: 40px;
+  margin: 0 3% 0 7%;
+  border-radius: 50%;
+  height: 40px;
+  display: inline-block;
+}
+
+.img2{
+    background-color: rgba(255, 0, 0, 0.541);
+}
+
+.img1{
+    background-color: rgba(0, 255, 76, 0.541);
+}
+
+.img3{
+    background-color: rgba(47, 0, 255, 0.342);
+}
+
+.img4{
+    background-color: rgba(217, 255, 0, 0.541);
+}
+
+@media screen and (max-width: 1000px) {
+  span {
+    display: none;
+  }
+  li {
+    margin: 18%;
+  }
+}
